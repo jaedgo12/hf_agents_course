@@ -1,0 +1,27 @@
+# Core agent stack
+langchain
+langgraph
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-google-genai
+langchain-groq
+langchain-openai
+
+# UI + utils
+gradio
+gradio[oauth]
+pandas
+requests
+python-dotenv
+
+# Free tools used by the agent
+ddgs
+wikipedia
+youtube-transcript-api
+beautifulsoup4
+openpyxl
+
+# Optional local STT (no paid API) — imported lazily so you can skip ffmpeg if not using audio
+openai-whisper
+ffmpeg-python
